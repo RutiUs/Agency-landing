@@ -1,0 +1,1109 @@
+html {
+    box-sizing: border-box;
+}
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+  
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    background-color: #FDFFFF;
+    color: #1D1D1D;
+}
+
+body-wraper {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    padding: 72px 0 68px;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__btn-burger {
+    display: none;
+}
+
+.menu__list {
+    display: flex;
+    gap: 0 50px;
+}
+
+.menu__item {
+    padding-top: 12px;
+}
+
+.menu__btn {
+    margin-top: 12px;
+}
+
+.menu__item-link {
+    letter-spacing: 0.18px;
+    text-transform: capitalize;
+    color: #1D1D1D;
+}
+
+.menu__item-link:hover {
+    font-weight: 700;
+    color: #1D1D1D;
+}
+
+.menu__btn {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    border-radius: 24px;
+    border: 1px solid #377DFF;
+    line-height: 24px;
+    padding: 12px 50px;
+    color: #377DFF;
+}
+
+.theme {
+    display: flex;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.theme svg {
+    cursor: pointer;
+}
+
+.info {
+    text-align: center;
+}
+
+.info__title {
+    position: relative;
+    font-family: "Nunito";
+    font-weight: 800;
+    font-size: 64px;
+    letter-spacing: 0.64px;
+    margin-bottom: 24px;
+}
+
+.info__title::before {
+    position: absolute;
+    top: 84px;
+    right: -20px;
+    content: "";
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #FF8E8E 0%, #F62424 100%);
+}
+
+.info__sumbtitle {
+    position: relative;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    opacity: 0.6000000238418579;
+    margin-bottom: 32px;
+}
+
+.info__sumbtitle::after {
+    position: absolute;
+    top: 69px;
+    left: 0;
+    content: "";
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(68, 133, 255, 0.80) 0%, #377DFF 100%);
+}
+
+.info__btn {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    padding: 12px 50px;
+    border-radius: 24px;
+    box-shadow: 0px 4px 8px 0px rgba(55, 125, 255, 0.50);
+    background: #377DFF;
+    color: #fff;
+}
+
+.info__content {
+    padding: 59px 0 56px;
+}
+
+.info__content {
+    position: relative;
+}
+
+.people__img {
+    position: relative;
+    z-index: 5;
+}
+
+.decor-1 {
+    position: absolute;
+    top: 40px;
+    left: 370px;
+}
+
+.decor-2 {
+    position: absolute;
+    bottom: 40px;
+    left: 370px;
+}
+
+.decor-3 {
+    position: absolute;
+    top: 243px;
+    left: 150px;
+}
+
+.decor-4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.info__card {
+    width: 175px;
+    height: 95px;
+    position: absolute;
+    top: 83px;
+    left: 150px;
+    z-index: 5;
+    border-radius: 16px;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.15);
+    background: #FFF;
+}
+
+.info__card-content {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px 0;
+}
+
+.star {
+    padding-right: 3px;
+}
+
+.info__card-text {
+    font-family: "Quicksand";
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.info__card-sumbtitle {
+    display: flex;
+    align-items: center;
+    padding: 11px 20px 0;
+}
+
+.info__card-title-text {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.24px;
+}
+
+.info__card-span {
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.24px;
+}
+
+.info__people-card {
+    position: absolute;
+    bottom: 55px;
+    right: 175px;
+    z-index: 5;
+    background-color: #fff;
+}
+
+.info__people-img {
+    display: flex;
+    align-items: center;
+    padding: 27px 21px 0;
+    gap: 0 10px;
+}
+
+.info__name-text {
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0.1px;
+}
+
+.info__name-job {
+    font-family: "Quicksand";
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0.06px;
+    opacity: 0.5;
+}
+
+.blockquote {
+    width: 125px;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 0.1px;
+    padding-top: 12px;
+}
+
+.about {
+    padding-top: 150px;
+}
+
+.about__top {
+    text-align: center;
+}
+
+.about__title-text {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.24px;
+    margin-bottom: 20px;
+    color: #377DFF;
+}
+
+.about__sumbtitle-text {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 55px;
+    letter-spacing: 0.165px;
+    margin-bottom: 40px;
+}
+
+.about__inner {
+    display: flex;
+    align-items: center;
+    gap: 0 65px;
+}
+
+.about__content {
+    position: relative;
+}
+
+.about__people-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 5;
+}
+
+.decor-5 {
+    position: absolute;
+    top: -20px;
+    left: -40px;
+}
+
+.decor-6 {
+    position: absolute;
+    bottom: -20px;
+    right: -40px;
+}
+
+.about__content-text {
+    max-width: 610px;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    padding-bottom: 24px;
+    color: #464646;
+}
+
+.about__btn-text {
+    display: flex;
+    padding-top: 24px;
+    gap: 0 25px;
+}
+
+.about__btn {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    padding: 12px 50px;
+    border-radius: 24px;
+    box-shadow: 0px 4px 8px 0px rgba(55, 125, 255, 0.50);
+    background: #377DFF;
+    color: #fff;
+}
+
+.about__btn-player {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    padding: 12px 50px;
+    border-radius: 24px;
+    border: 1px solid #377DFF;
+    color: #377DFF;
+}
+
+.services {
+    padding-top: 150px;
+}
+
+.services__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__text {
+    max-width: 521px;
+}
+
+.services__title {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.24px;
+    margin-bottom: 32px;
+    color: #377DFF;
+}
+
+.services__sumbtitle {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 55px;
+    letter-spacing: 0.165px;
+    padding: 0 7px;
+    margin-bottom: 18px;
+}
+
+.services__sumbtitle-text {
+    letter-spacing: 0.2px;
+    margin-bottom: 32px;
+    color: #464646;
+}
+
+.services__link {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0 16px;
+}
+
+.services__link-img {
+    padding: 0 10px;
+}
+
+.services__card {
+    display: grid;
+    gap: 38px 41px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+
+.services__content{
+    padding: 35px 47px 34px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+
+.services__card-text {
+    max-width: 168px;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 32px;
+    letter-spacing: 0.24px;
+}
+
+.projects {
+    padding-top: 150px;
+}
+
+.projects__content {
+    position: relative;
+    text-align: center;
+}
+
+.projects__title {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.24px;
+    margin-bottom: 20px;
+    color: #377DFF;
+}
+
+.projects__sumbtitle {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 55px;
+    letter-spacing: 0.165px;
+    margin-bottom: 28px;
+}
+
+.project__sumbtitle-text {
+    letter-spacing: 0.2px;
+    color: #464646;
+}
+
+.projects__decor-6 {
+    position: absolute;
+    top: 140px;
+    right: 0;
+}
+
+.projects__card {
+    padding-top: 48px;
+}
+
+.projects__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 69px;
+    align-items: center;
+}
+
+.projects__item {
+    position: relative;
+    text-align: center;
+}
+
+.projects__img {
+    position: relative;
+    z-index: 5;
+}
+
+.projects__span {
+    position: absolute;
+    bottom: 50px;
+    left: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.072px;
+    z-index: 6;
+    color: #fff;
+}
+
+.projects__img-decor-6 {
+    position: absolute;
+    top: 100px;
+    left: -35px;
+    z-index: 5;
+}
+
+.projects__btn {
+    padding-top: 34px;
+    text-align: center;
+}
+
+.projects__btn-text {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    padding: 12px 50px;
+    border-radius: 24px;
+    border: 1px solid #377DFF;
+    color: #377DFF;
+}
+
+.testimonial {
+    padding-top: 150px;
+}
+
+.testimonial__content {
+    position: relative;
+    text-align: center;
+}
+
+.testimonial__decor-1 {
+    position: absolute;
+    top: -60px;
+    left: 20px;
+}
+
+.testimonial__title {
+    position: relative;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.24px;
+    margin-bottom: 20px;
+    color: #377DFF;
+}
+
+.testimonial__sumbtitle {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 55px;
+    letter-spacing: 0.165px;
+    margin-bottom: 50px;
+}
+
+.testimonial__card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 50px;
+}
+
+.testimonial__card-inner {
+    position: relative;
+    max-width: 380px;
+    padding: 50px 40px 106px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.05);
+    z-index: 6;
+    background: #FFF;
+
+}
+
+.testimonial__card-content {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial__img-user {
+    margin-right: 30px;
+}
+
+.testimonial__info-name {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color: #377DFF;
+}
+
+.testimonial__info-job {
+    font-size: 11px;
+    letter-spacing: 0.11px;
+    opacity: 0.5;
+    color: #464646;
+}
+
+.testimonial__text {
+    letter-spacing: 0.18px;
+    opacity: 0.800000011920929;
+    margin-top: 25px;
+    color: #464646;
+}
+
+.collaboration {
+    padding: 150px 0 150px;
+}
+
+.collaboration__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collaboration__title {
+    max-width: 491px;
+    max-height: 225px;
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 55px;
+    letter-spacing: 0.165px;
+    margin-bottom: 25px;
+}
+
+.collaboration__sumbtitle {
+    letter-spacing: 0.2px;
+    margin-bottom: 25px;
+    color: #464646;
+}
+
+.collaboration__btn {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    padding: 12px 50px;
+    border-radius: 24px;
+    box-shadow: 0px 4px 8px 0px rgba(55, 125, 255, 0.50);
+    color: #fff;
+    background: #377DFF;
+}
+
+.collaboration__img {
+    position: relative;
+}
+
+.collaboration__people-1 {
+    position: relative;
+    z-index: 5;
+}
+
+.collaboration__decor-1 {
+    position: absolute;
+    top: -20px;
+    left: -30px;
+    z-index: 4;
+}
+
+.collaboration__people-2 {
+    position: relative;
+    object-fit: cover;
+    top: -80px;
+    left: -30px;
+    z-index: 2;
+}
+
+.collaboration__decor-2 {
+    position: absolute;
+    bottom: 0;
+    right: 183px;
+}
+
+.footer {
+    padding: 132px 0 33px;
+    background-color: #383638;
+}
+
+.footer__inner {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0 30px;
+}
+
+.footer__inner-col {
+    max-width: 284px;
+}
+
+.footer__inner-title {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.footer__inner-item {
+    margin-bottom: 30px;
+}
+
+.footer__inner-link {
+    line-height: normal;
+    color: #FFF;
+}
+
+.footer__social-media {
+    position: relative;
+    padding-top: 75px;
+}
+
+.footer__social-list {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 40px;
+}
+
+.footer__social-list::before {
+    position: absolute;
+    content: "";
+    width: 40%;
+    bottom: -17px;
+    border: 1px solid #fff;
+}
+
+.footer__copy-text {
+    padding-top: 32px;
+    text-align: center;
+    color: #fff;
+}
+
+@media(max-width:1155px) {
+    .collaboration__people-1 {
+        top: 130px;
+    }
+
+    .collaboration__decor-1 {
+        top: 100px;
+    }
+
+    .collaboration__people-2 {
+        top: -103px;
+        left: 300px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .footer__inner {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .collaboration__people-1  {
+        top: 210px;
+        left: -80px;
+    }
+
+    .collaboration__people-2 {
+        left: 270px;
+    }
+}
+
+@media(max-width: 1029px) {
+    .menu__btn {
+        padding: 12px 30px;
+    }
+
+    .info__card {
+        left: 100px;
+    }
+    .info__people-card {
+        right: 100px;
+    }
+
+    .projects__img-decor-6,
+    .projects__decor-6 {
+        display: none;
+    }
+
+    .projects__list  {
+        gap: 0 15px;
+    }
+
+    .projects__span {
+        left: 0;
+        right: 0;
+        bottom: 20px;
+        font-size: 16px;
+    }
+
+    .testimonial__card-inner {
+        position: relative;
+        max-width: 100%;
+        padding: 30px 10px 40px;
+    }
+
+    .collaboration__people-1 {
+        top: 210px;
+        left: -80px;
+        max-width: 250px;
+    }
+
+    .collaboration__people-2 {
+        top: 36px;
+        left: 180px;
+        max-width: 250px;
+    }
+
+    .collaboration__decor-2 {
+        bottom: -120px;
+    }
+
+    .footer__inner-title {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:880px) {
+    .collaboration__inner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .collaboration__title {
+        max-width: 100%;
+        font-size: 50px;
+    }
+
+    .collaboration__img {
+        margin-top: 30px;
+    }
+
+    .collaboration__people-1 {
+        top: 105px;
+        left: 0;
+    }
+
+    .collaboration__decor-1 {
+        top: 70px;
+        left: 20px;
+    }
+
+    .collaboration__people-2 {
+        bottom: -160px;
+        left: 0;
+    }
+
+    .collaboration__decor-2 {
+        bottom: -70px;
+        right: 0;
+    }
+}
+
+@media(max-width:850px) {
+    .about,.services, .projects {
+        padding-top: 50px;
+    }
+
+    .testimonial {
+        padding-top: 70px;
+    } 
+
+    .collaboration {
+        padding: 70px 0 150px;
+    }
+
+    .menu__btn-burger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 45px;
+        height: 30px;
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+    }
+
+    .menu__btn-burger span {
+        width: 100%;
+        height: 3px;
+        background-color: #6d7278;
+    }
+
+    .menu__list{
+        display: none;
+    }
+
+    .menu__list.menu--open{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100vh;
+        z-index: 5;
+        text-align: center;
+        padding-top: 150px;
+        background-color: #DCDCDC;
+    }
+
+    .menu__item-logo {
+        padding-bottom: 20px;
+    }
+
+    .menu__item {
+        padding: 10px;
+    }
+
+    .menu__item-link,
+    .logo__link {
+        display: block;
+    }
+
+    .menu__btn-burger {
+        position: relative;
+        z-index: 6;
+    }
+
+    .theme {
+        position: relative;
+        z-index: 6;
+    }
+
+    .info__title {
+        font-size: 50px;
+    }
+
+    .info__title::before {
+        display: none;
+    }
+
+    .info__sumbtitle::after {
+        display: none;
+    }
+
+    .info__card  {
+        top: 55px;
+        left: 0px;
+    }
+
+    .info__people-card {
+        bottom: 55px;
+        right: 0px;
+    }
+
+    .about__inner {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .about__text {
+        order: -1;
+        text-align: center;
+    }
+
+    .about__btn-text {
+        justify-content: center;
+    }
+
+    .services__inner {
+        flex-direction: column;
+    }
+
+    .services__text {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .services__link {
+        justify-content: flex-start;
+    }
+
+    .services__card-text {
+        max-width: 100%;
+    }
+
+    .testimonial__card {
+        gap: 0 25px;
+    }
+
+    .testimonial__info-name {
+        font-size: 17px;
+    }
+
+    .footer__inner {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer__inner-col {
+        max-width: 180px;
+    }
+
+    .footer__inner-item {
+        margin: 0 0 30px;
+    }
+}
+
+@media(max-width:670px) {
+    .decor-5,
+    .decor-6 {
+        display: none;
+    }
+
+    .testimonial__sumbtitle  {
+        font-size: 50px;
+    }
+}
+
+@media(max-width:580px) {
+    .decor-1 {
+        display: none;
+    }
+
+    .decor-2 {
+        display: none;
+    }
+
+    .services__card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .projects__list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px 15px;
+    }
+
+    .testimonial__card {
+        gap: 20px 25px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .testimonial__decor-1 {
+        display: none
+    }
+
+    .testimonial__sumbtitle {
+        font-size: 45px;
+    }
+
+    .collaboration__title {
+        font-size: 40px;
+    }
+    
+    .collaboration__people-1,
+    .collaboration__people-2 {
+        width: 200px;
+    }
+
+    .footer__inner {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+}
+
+@media(max-width:490px) {
+    .info__title {
+        font-size: 30px;
+    }
+    .services__sumbtitle {
+        font-size: 48px;
+    }
+
+    .projects__sumbtitle  {
+        font-size: 40px;
+    }
+
+    .collaboration__people-1,
+    .collaboration__people-2 {
+        width: 150px;
+    }
+}
+
+@media(max-width:430px) {
+    .decor-3 {
+        display: none;
+    }
+
+    .info__card {
+        width: 140px;
+        height: 80px;
+    }
+
+    .info__card-content {
+        padding: 5px 5px 0;
+    }
+
+    .info__card-title-text {
+        font-size: 20px;
+    }
+
+    .info__card-span {
+        font-size: 16px;
+    }
+
+    .info__people-img {
+        padding: 10px 5px 0;
+    }
+
+    .blockquote {
+        width: 110px;
+    }
+
+    .about__btn,
+    .about__btn-player {
+        padding: 12px 30px;
+    }
+}

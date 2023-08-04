@@ -1,0 +1,151 @@
+body {
+    background-color: #FDFFFF;
+    color: #1D1D1D;
+}
+
+.menu__item-link {
+    color: #1D1D1D;
+}
+
+.menu__item-link:hover {
+    color: #1D1D1D;
+}
+
+.menu__btn {
+    border: 1px solid #377DFF;
+    color: #377DFF;
+}
+
+.change-theme[data-theme="light"] {
+    display: none;
+}
+
+.change-theme[data-theme="dark"] {
+    display: block;
+}
+
+.info__title::before {
+    background: linear-gradient(180deg, #FF8E8E 0%, #F62424 100%);
+}
+
+.info__sumbtitle::after {
+    background: linear-gradient(180deg, rgba(68, 133, 255, 0.80) 0%, #377DFF 100%);
+}
+
+.info__btn {
+    box-shadow: 0px 4px 8px 0px rgba(55, 125, 255, 0.50);
+    background: #377DFF;
+    color: #fff;
+}
+
+.info__card {
+    background: #FFF;
+}
+
+.info__people-card {
+    background-color: #fff;
+}
+
+.about__title-text {
+    color: #377DFF;
+}
+
+.about__content-text {
+    color: #464646;
+}
+
+.about__btn {
+    box-shadow: 0px 4px 8px 0px rgba(55, 125, 255, 0.50);
+    background: #377DFF;
+    color: #fff;
+}
+
+.about__btn-player {
+    border: 1px solid #377DFF;
+    color: #377DFF;
+}
+
+.services__title {
+    color: #377DFF;
+}
+
+.services__sumbtitle-text {
+    color: #464646;
+}
+
+.services__content{
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+
+.projects__title {
+    color: #377DFF;
+}
+
+.project__sumbtitle-text {
+    color: #464646;
+}
+
+.projects__span {
+    color: #fff;
+}
+
+.projects__btn-text {
+    border: 1px solid #377DFF;
+    color: #377DFF;
+}
+
+.testimonial__title {
+    color: #377DFF;
+}
+
+.testimonial__card-inner {
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.05);
+    background: #FFF;
+}
+
+.testimonial__info-name {
+    color: #377DFF;
+}
+
+.testimonial__info-job {
+    color: #464646;
+}
+
+.testimonial__text {
+    color: #464646;
+}
+
+.collaboration__sumbtitle {
+    color: #464646;
+}
+
+.collaboration__btn {
+    box-shadow: 0px 4px 8px 0px rgba(55, 125, 255, 0.50);
+    color: #fff;
+    background: #377DFF;
+}
+
+.footer {
+    background-color: #383638;
+}
+
+.footer__inner-title {
+    color: #fff;
+}
+
+.footer__inner-link {
+    color: #FFF;
+}
+
+.footer__social-list::before {
+    border: 1px solid #fff;
+}
+
+.footer__copy-text {
+    color: #fff;
+}
+
+
+

@@ -1,0 +1,201 @@
+body {
+    background: #0E0E0E;
+    color: #E2E2E2;
+}
+
+.menu__item-link {
+    color: #E2E2E2;
+}
+
+.menu__item-link:hover {
+    color: #E2E2E2;
+}
+
+.menu__btn {
+    border: 1px solid #E2E2E2;
+    color: #E2E2E2;
+}
+
+.change-theme[data-theme="dark"] {
+    display: none;
+}
+
+.change-theme[data-theme="light"] {
+    display: block;
+}
+
+.info__title::before {
+    background: linear-gradient(180deg, #FF8E8E 0%, #F62424 100%);
+}
+
+.info__sumbtitle::after {
+    background: linear-gradient(180deg, rgba(68, 133, 255, 0.80) 0%, #377DFF 100%);
+}
+
+.info__btn {
+    box-shadow: 0px 4px 8px 0px rgba(55, 125, 255, 0.50);
+    background: #E2E2E2;
+    color: #0E0E0E;
+}
+
+.info__card {
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.15);
+    background: #0D0D0D;
+
+}
+
+.info__people-card {
+    background-color: rgba(13, 13, 13, 1);
+}
+
+.about__title-text {
+    color: #377DFF;
+}
+
+.info__name-text {
+    color: #E2E2E2;
+}
+
+.info__name-job {
+    color: #E2E2E2;
+}
+
+.blockquote {
+    color: #E2E2E2;
+}
+
+.about__title-text {
+    color: #E2E2E2;
+}
+
+.about__sumbtitle-text {
+    color: #E2E2E2;
+}
+
+.about__content-text {
+    color: #E2E2E2;
+}
+
+.about__btn {
+    box-shadow: 0px 4px 8px 0px rgba(55, 125, 255, 0.50);
+    background: #E2E2E2;
+    color: #0D0D0D;
+}
+
+.about__btn-player {
+    border: 1px solid #E2E2E2;
+    color: #E2E2E2;
+}
+
+.services__title {
+    color: #E2E2E2;
+}
+
+.services__sumbtitle-text {
+    color: #E2E2E2;
+}
+
+.services__link-text,
+.services__link-img {
+    color: #E2E2E2;
+}
+
+.services__content{
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.10);
+    background: #0B0F15;
+}
+
+.services__card-text {
+    color: #E2E2E2;
+}
+
+.projects__title {
+    color: #E2E2E2;
+}
+
+.projects__sumbtitle {
+    color: #E2E2E2;
+}
+
+.project__sumbtitle-text {
+    color: #E2E2E2;
+}
+
+.projects__span {
+    color: #E2E2E2;
+}
+
+.projects__btn-text {
+    border: 1px solid #E2E2E2;
+    color: #E2E2E2;
+}
+
+.testimonial__title {
+    color: #E2E2E2;
+}
+
+.testimonial__sumbtitle {
+    color: #E2E2E2;
+}
+
+.testimonial__card-inner {
+    box-shadow: 0px 8px 24px 0px rgba(163, 163, 163, 0.05);
+    background: #0B0F15;
+}
+
+.testimonial__info-name {
+    color: #E2E2E2;
+}
+
+.testimonial__info-job {
+    color: #E2E2E2;
+}
+
+.testimonial__text {
+    color: #E2E2E2;
+}
+
+.collaboration__title {
+    color: #E2E2E2;
+}
+
+.collaboration__sumbtitle {
+    color: #E2E2E2;
+}
+
+.collaboration__btn {
+    box-shadow: 0px 4px 8px 0px rgba(55, 125, 255, 0.50);
+    background: #E2E2E2;
+    color: #0D0D0D;
+}
+
+.footer {
+    background-color: #383638;
+}
+
+.footer__inner-title {
+    color: #E2E2E2;
+}
+
+.footer__inner-link {
+    color: #E2E2E2;
+}
+
+.footer__social-list::before {
+    border: 1px solid #fff;
+}
+
+.footer__copy-text {
+    color: #E2E2E2;
+}
+
+@media(max-width:850px) {
+    .menu__item-link {
+        color: #1D1D1D;
+    }
+
+    .menu__item-link:hover {
+        color: #1D1D1D;
+    }
+}
